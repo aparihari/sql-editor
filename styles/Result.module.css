@@ -1,0 +1,11 @@
+.row {
+  @apply border-t-0;
+  @apply px-6;
+  @apply align-middle;
+  @apply border-l-0;
+  @apply border-r-0;
+  @apply text-xs;
+  @apply whitespace-nowrap;
+  @apply p-4;
+  @apply text-left;
+}
