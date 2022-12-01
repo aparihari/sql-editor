@@ -2,6 +2,8 @@
 
 This a Next.js project, which uses React.js under the hood for UI components. As per the requirement of the project the project is not a full blown SQL parser or executor. The project is certainly an editor and uses CodeMirror editor under the hood.
 
+The application has been deployed here: https://sql-editor-h380tjgns-aparihari.vercel.app
+
 ### Features
 - SQL Editor
 - On Execution of query, displaying mock data
@@ -10,7 +12,7 @@ This a Next.js project, which uses React.js under the hood for UI components. As
 
 ### Performance of the application
 [<img src="./public/performance.png">]()
-- All the core web vitals are within 1s as we can see the performance tab results
+- All the core web vitals are within 1s as we can see the lighthouse tab results
 
 ### Optimizations
 The project is using Next.js to optimize the first initial load the application. As we know Next.js by default uses Static Site Generation technique to optimize the performance of the application and later on hydrates the same. The same can be seen for this application due to which the initial load time of the application is very low.
